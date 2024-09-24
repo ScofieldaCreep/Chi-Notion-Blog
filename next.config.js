@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 module.exports = withBundleAnalyzer({
-  basePath: '/blog',
+  // basePath: '/blog',
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
