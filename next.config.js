@@ -4,7 +4,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 })
 
-module.exports = withBundleAnalyzer({
+// next.config.js
+const nextConfig = {
+  // 其他配置项
+  assetPrefix: 'http://chi-notion.blog.vercel.app',
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
@@ -21,4 +24,6 @@ module.exports = withBundleAnalyzer({
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true
   }
-})
+}
+
+module.exports = withBundleAnalyzer(nextConfig)
