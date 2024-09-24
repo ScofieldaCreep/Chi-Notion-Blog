@@ -7,7 +7,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 // next.config.js
 const nextConfig = {
   // 其他配置项
-  assetPrefix: 'http://chi-notion.blog.vercel.app',
+  assetPrefix: 'https://chi-notion-blog.vercel.app',
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
