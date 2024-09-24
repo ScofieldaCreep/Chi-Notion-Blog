@@ -16,7 +16,8 @@ module.exports = withBundleAnalyzer({
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
       'chizhang.love',
-      'chizhang.tech'
+      'chizhang.tech',
+      'chi-notion-blog.vercel.app'
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
