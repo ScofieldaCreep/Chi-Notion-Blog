@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/:path*",
-            "destination": "https://chizhang.love/blog/:path*"
+            "source": "/blog/:path*",
+            "destination": "/:path*"
         }
     ]
 }

@@ -4,11 +4,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 })
 
-export default nextConfig
 // next.config.js
 const nextConfig = {
   // 其他配置项
-  assetPrefix: 'https://chi-notion-blog.vercel.app',
+  assetPrefix: 'https://chi-notion-blog.vercel.app/',
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
