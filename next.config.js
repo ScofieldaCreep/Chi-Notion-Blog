@@ -4,6 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 })
 
+export default nextConfig
 // next.config.js
 const nextConfig = {
   // 其他配置项
