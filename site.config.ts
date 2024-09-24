@@ -12,7 +12,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Chi Zhang - Blog',
-  domain: 'chizhang.love',
+  domain: 'blog.chizhang.love',
   author: 'Chi Zhang',
 
   // open graph metadata (optional)
