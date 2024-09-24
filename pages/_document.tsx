@@ -5,7 +5,7 @@ import { IconContext } from '@react-icons/all-files'
 
 export default class MyDocument extends Document {
   render() {
-    const basePath = 'https://chi-notion-blog.vercel.app'
+    const basePath = '/blog/'
 
     return (
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
