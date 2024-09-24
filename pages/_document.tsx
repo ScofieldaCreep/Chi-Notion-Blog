@@ -5,13 +5,11 @@ import { IconContext } from '@react-icons/all-files'
 
 export default class MyDocument extends Document {
   render() {
-    const basePath = '/blog/'
-
     return (
       <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
         <Html lang='en'>
           <Head>
-            <base href={basePath} />
+            {/* <base href={basePath} /> */}
             <link rel='shortcut icon' href='/favicon.ico' />
             <link
               rel='icon'
