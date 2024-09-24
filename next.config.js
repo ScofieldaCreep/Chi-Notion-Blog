@@ -4,10 +4,12 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 })
 
+const isProd = process.env.NODE_ENV === 'production'
+
 // next.config.js
 const nextConfig = {
   // 其他配置项
-  assetPrefix: 'https://blog.chizhang.love',
+  assetPrefix: isProd ? 'https://blog.chizhang.love' : '',
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
